@@ -1,0 +1,17 @@
+﻿# Large files & folders
+data/
+submissions/
+notebooks/
+*.csv
+*.pkl
+*.npz
+
+# Keep only these
+!model_artifacts/movies_cleaned.csv
+!model_artifacts/model_arrays.npz
+!model_artifacts/mappings.pkl
+
+# Python
+__pycache__/
+*.pyc
+venv/
